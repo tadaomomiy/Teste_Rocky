@@ -8,6 +8,7 @@
 const brokenDatabase = require("../Teste_Rocky/broken-database.json")
 
 // Corrigir nomes
+// Utilização do método map "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
 function fixName() {
     brokenDatabase.map((obj) => {
 
@@ -51,6 +52,7 @@ fixPrice()
 fixQuantity()
 
 // Exportar um arquivo JSON com o banco corrigido
+// Utilizado a base de código do site "https://qastack.com.br/programming/36856232/write-add-data-in-json-file-using-node-js"
 function exportJsonFile() {
     let fixedDataBase = JSON.stringify(brokenDatabase);
 
@@ -73,7 +75,7 @@ function listProducts() {
             products.push(category)
         }
     }
-
+    // Utilizado a base de código do site "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
     // ordenar por id
     products.sort(function (a, b) {
         return a.id - b.id;
