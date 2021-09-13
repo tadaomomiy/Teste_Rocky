@@ -81,12 +81,12 @@ function listProducts() {
 
     // ordenar por categoria
     products.sort(function (a, b) {
-        var nameA = a.category.toUpperCase(); // ignore upper and lowercase
-        var nameB = b.category.toUpperCase(); // ignore upper and lowercase
-        if (nameA < nameB) {
+        var categoryA = a.category.toUpperCase();
+        var categoryB = b.category.toUpperCase();
+        if (categoryA < categoryB) {
             return -1;
         }
-        if (nameA > nameB) {
+        if (categoryA > categoryB) {
             return 1;
         }
         return 0;
