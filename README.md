@@ -1,10 +1,10 @@
 # Database fix
 
-This Code was made as pratice test for a selective process.
+This Code was made as a pratice test for a selective process.
 
 ## Objective
 
-The main objective is fix a Database that has a compilation problem in letters replacement, some property type and lost data.
+The main objective is fix a Database that has compilation problems in letters replacement, some property type and lost data.
 
 ## Solution
 
