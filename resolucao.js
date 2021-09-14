@@ -5,7 +5,7 @@
 // Ele precisa existir em todos os produtos, mesmo naqueles em que o estoque é 0.
 
 // Ler o arquivo JSON
-const brokenDatabase = require("../Teste_Rocky/broken-database.json")
+const brokenDatabase = require("./database/broken-database.json")
 
 // Corrigir nomes
 // Utilização do método map "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
